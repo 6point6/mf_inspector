@@ -1,0 +1,9 @@
+###### Requirements without Version Specifiers ######
+filemagic
+argparse
+PyPDF2
+oletools
+git+git://github.com/ewohnlich/openxmllib.git@82aa14a599fe97264a0251b24f8caf8153baf05b#egg=openxmllib
+tabulate
+simplejson
+pyclamd
