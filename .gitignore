@@ -1,3 +1,4 @@
 results/*
+!results/.placeholder
 modules/__*
 modules/pdfid/__*
