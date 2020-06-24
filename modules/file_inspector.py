@@ -123,7 +123,7 @@ class FileProperty:
     def check_invalid_format(self, data) -> str:
         if self.valid_fmt_flag is True and data is None:
             logging.warning("Invalid file format for \"%s\" for mime type \"%s\"" % (self.fname, self.fmime_type))
-            self.fdetails += "File format does not match mime type\n"
+            self.fdetails += "\nFile format does not match mime type\n"
             self.fmal_score += 1
             self.valid_fmt_flag = False
             return ""
