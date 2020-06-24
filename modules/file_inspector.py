@@ -272,7 +272,7 @@ class Files:
         for entry in self.flist:
             fentry = self.flist[entry]
             csv_writer.writerow(
-                [fentry.fname, fentry.fhash, fentry.fmime_type, fentry.fmetadata, fentry.fdetails, fentry.fmal_score])
+                [fentry.fname, fentry.fphash, fentry.fhash, fentry.fmime_type, fentry.fmetadata, fentry.fdetails, fentry.fmal_score])
 
         csv_file.close()
         
