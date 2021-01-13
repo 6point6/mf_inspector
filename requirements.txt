@@ -7,3 +7,4 @@ git+git://github.com/ewohnlich/openxmllib.git@82aa14a599fe97264a0251b24f8caf8153
 tabulate
 simplejson
 pyclamd
+requests
